@@ -1,0 +1,2 @@
+# SfeduAPIGraphQL
+Test API GraphQL
