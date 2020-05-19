@@ -6,6 +6,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Persistance.Repositories.Interfaces;
 using System.Threading;
+using WebApplicationCore3GraphQL.Persistance.DataLoaders;
+using GreenDonut;
 
 namespace WebApplicationCore3GraphQL.GraphQL.Queries
 {
@@ -37,6 +39,11 @@ namespace WebApplicationCore3GraphQL.GraphQL.Queries
             CancellationToken cancellationToken)
         {
             return await repository.GetAcademyIncome1CBGUsAsync(academyIncome1CBGUIds, cancellationToken);
+        }
+
+        public Task<AcademyIncome1CBGU> QueryGetAcademyIncome1CBGUDataLoader(string id, [DataLoader]AcademyIncome1CBGUDataLoader academyLoader)
+        {
+            return academyLoader.LoadAsync(id);
         }
     }
 }

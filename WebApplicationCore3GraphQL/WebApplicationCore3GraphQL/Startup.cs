@@ -33,6 +33,7 @@ namespace WebApplicationCore3GraphQL
 
             services.AddTransient<IAcademy1CBGURepository, Academy1CBGURepository>();
             services.AddTransient<IAcademyIncome1CBGURepository, AcademyIncome1CBGURepository>();
+            services.AddTransient<IAcademyIncome1CBGUDataLoaderRepository, AcademyIncome1CBGUDataLoaderRepository>();
 
             // v1
             //services.AddDataLoaderRegistry();
@@ -71,9 +72,4 @@ namespace WebApplicationCore3GraphQL
             //});
         }
     }
-
-    //    public class Query
-    //    {
-    //        public string Hello() => "world";
-    //    }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2FHBpeIoiudJcawBQbtA6ZgcFIkPK7cC1pBQk8DedamVw9Fa18GPXIpotL3DLCvBoM8Rqkbq8d36lx7c9pynlg==",
+  "dgSpecHash": "JC2JEVlXVu/JWg0aJCHrz1gErKpo+2vtq2iclSW9LMFp/a/vM9AWCkmyYtrzS5xWmUBQUJ5OOYLh7gU8XTfVWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\samtehnik\\source\\repos\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

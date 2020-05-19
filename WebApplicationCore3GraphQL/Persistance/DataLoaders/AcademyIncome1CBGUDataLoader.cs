@@ -9,19 +9,34 @@ using System.Threading.Tasks;
 
 namespace WebApplicationCore3GraphQL.Persistance.DataLoaders
 {
-    public class AcademyIncome1CBGUDataLoader : DataLoaderBase<int, AcademyIncome1CBGU>
+    public class AcademyIncome1CBGUDataLoader : DataLoaderBase<string, AcademyIncome1CBGU>
     {
-        private readonly IAcademyIncome1CBGURepository _repository;
+        private readonly IAcademyIncome1CBGUDataLoaderRepository _repository;
 
-        public AcademyIncome1CBGUDataLoader(IAcademyIncome1CBGURepository repository)
-          : base(new DataLoaderOptions<int>())
+        public AcademyIncome1CBGUDataLoader(IAcademyIncome1CBGUDataLoaderRepository repository)
+          : base(new DataLoaderOptions<string>())
         {
             _repository = repository;
         }
 
-        protected override Task<IReadOnlyList<Result<AcademyIncome1CBGU>>> FetchAsync(IReadOnlyList<int> keys, CancellationToken cancellationToken)
+        protected override async Task<IReadOnlyList<Result<AcademyIncome1CBGU>>> FetchAsync(
+            IReadOnlyList<string> keys, 
+            CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            // v 1
+            //await Task.Yield();
+            //return _repository.GetAcademyIncome1CBGUsDataLoader(keys).Select(x => Result<UserDto>.Resolve(x.ToTransport())).ToList();
+
+            // v 2
+            //return await Task.FromResult<IReadOnlyList<Result<AcademyIncome1CBGU>>>(
+            //    keys.Select(t => (Result<AcademyIncome1CBGU>)t).ToArray());
+
+            // v 3
+            //return await _repository.GetAcademyIncome1CBGUsDataLoader(keys).Select(x => Result<UserDto>.Resolve(x.ToTransport())).ToList();
+
+            // v 4
+            return await _repository.GetAcademyIncome1CBGUsDataLoader(keys).Select(AcademyIncome1CBGU).ToList();
+
         }
 
         //protected override Task<IReadOnlyList<Result<AcademyIncome1CBGU>>> FetchAsync(IReadOnlyList<int> keys, CancellationToken cancellationToken)
