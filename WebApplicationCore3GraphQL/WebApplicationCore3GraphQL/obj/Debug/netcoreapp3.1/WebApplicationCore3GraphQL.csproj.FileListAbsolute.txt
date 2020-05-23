@@ -156,3 +156,7 @@ C:\Users\samtehnik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\W
 C:\Users\samtehnik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.dll
 C:\Users\samtehnik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.pdb
 C:\Users\samtehnik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.genruntimeconfig.cache
+C:\Users\samtehnik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\samtehnik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.ExpressionMapping.dll
+C:\Users\samtehnik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\samtehnik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\bin\Debug\netcoreapp3.1\Transport.dll

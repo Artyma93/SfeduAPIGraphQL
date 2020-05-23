@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Domain.Models
+namespace WebApplicationCore3GraphQL.Infra.Data.Models
 {
     public class Academy1CBGU
     {

@@ -15,6 +15,18 @@
           "lib/netstandard2.0/AutoMapper.dll": {}
         }
       },
+      "AutoMapper.Extensions.ExpressionMapping/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "9.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.Extensions.ExpressionMapping.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.Extensions.ExpressionMapping.dll": {}
+        }
+      },
       "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -1307,14 +1319,24 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Domain/1.0.0": {
+      "Domain_old/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/Domain.dll": {}
+          "bin/placeholder/Domain_old.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Domain.dll": {}
+          "bin/placeholder/Domain_old.dll": {}
+        }
+      },
+      "Transport/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Transport.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Transport.dll": {}
         }
       }
     }
@@ -1335,6 +1357,21 @@
         "lib/netstandard2.0/AutoMapper.dll",
         "lib/netstandard2.0/AutoMapper.pdb",
         "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
+    "AutoMapper.Extensions.ExpressionMapping/3.1.0": {
+      "sha512": "BxvD5jLRfTp7N59GML5buIN/BvCegOJxLaQ8rOAAloHN8WK/AoLLt1IeI6Ft7oBTXVZejeL3WvNift1hUhhCfQ==",
+      "type": "package",
+      "path": "automapper.extensions.expressionmapping/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automapper.extensions.expressionmapping.3.1.0.nupkg.sha512",
+        "automapper.extensions.expressionmapping.nuspec",
+        "lib/net461/AutoMapper.Extensions.ExpressionMapping.dll",
+        "lib/net461/AutoMapper.Extensions.ExpressionMapping.xml",
+        "lib/netstandard2.0/AutoMapper.Extensions.ExpressionMapping.dll",
+        "lib/netstandard2.0/AutoMapper.Extensions.ExpressionMapping.xml"
       ]
     },
     "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
@@ -5053,21 +5090,28 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Domain/1.0.0": {
+    "Domain_old/1.0.0": {
       "type": "project",
-      "path": "../Domain/Domain.csproj",
-      "msbuildProject": "../Domain/Domain.csproj"
+      "path": "../Domain/Domain_old.csproj",
+      "msbuildProject": "../Domain/Domain_old.csproj"
+    },
+    "Transport/1.0.0": {
+      "type": "project",
+      "path": "../Transport/Transport.csproj",
+      "msbuildProject": "../Transport/Transport.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "AutoMapper >= 9.0.0",
+      "AutoMapper.Extensions.ExpressionMapping >= 3.1.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 7.0.0",
-      "Domain >= 1.0.0",
+      "Domain_old >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.3",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.3",
-      "Microsoft.EntityFrameworkCore.Tools >= 3.1.3"
+      "Microsoft.EntityFrameworkCore.Tools >= 3.1.3",
+      "Transport >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5078,9 +5122,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\Data.csproj",
-      "projectName": "Data",
-      "projectPath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\WebApplicationCore3GraphQL.Infra.Data.csproj",
+      "projectName": "WebApplicationCore3GraphQL.Infra.Data",
+      "projectPath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\WebApplicationCore3GraphQL.Infra.Data.csproj",
       "packagesPath": "C:\\Users\\samtehnik\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\obj\\",
       "projectStyle": "PackageReference",
@@ -5103,8 +5147,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj"
+            "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain_old.csproj": {
+              "projectPath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain_old.csproj"
+            },
+            "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Transport\\Transport.csproj": {
+              "projectPath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Transport\\Transport.csproj"
             }
           }
         }
@@ -5121,6 +5168,10 @@
           "AutoMapper": {
             "target": "Package",
             "version": "[9.0.0, )"
+          },
+          "AutoMapper.Extensions.ExpressionMapping": {
+            "target": "Package",
+            "version": "[3.1.0, )"
           },
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",

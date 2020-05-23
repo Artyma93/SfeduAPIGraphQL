@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "RRJEp28y4oXQuXyiedJbXZIn0DuXTPa+MCxlpfHhFjZQDDXZdUm0ZQeyIQfkOadhjEnuoW3nAHQvCqkHMIgKAQ==",
+  "dgSpecHash": "s/gA2QrtRCGKlkT9bBstua+2hzE6RFpswTSVM+ftt6JJo1QOY1mAa7/WgdGrzzo/ESYg2kcj6Iz8djtFJi5dIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\Data.csproj",
+  "projectFilePath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\WebApplicationCore3GraphQL.Infra.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\samtehnik\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
+    "C:\\Users\\samtehnik\\.nuget\\packages\\automapper.extensions.expressionmapping\\3.1.0\\automapper.extensions.expressionmapping.3.1.0.nupkg.sha512",
     "C:\\Users\\samtehnik\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\samtehnik\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\samtehnik\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

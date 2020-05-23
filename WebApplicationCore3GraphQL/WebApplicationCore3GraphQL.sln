@@ -3,13 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationCore3GraphQL", "WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.csproj", "{89109975-CDCD-4960-80ED-AA12C5D26E56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationCore3GraphQL", "WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.csproj", "{89109975-CDCD-4960-80ED-AA12C5D26E56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{41824291-2A09-4827-B0C5-4AD258A11DCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationCore3GraphQL.Infra.Data", "Data\WebApplicationCore3GraphQL.Infra.Data.csproj", "{41824291-2A09-4827-B0C5-4AD258A11DCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{B4E0BEE3-1727-4D0D-AD9A-CCA8691654D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain_old", "Domain\Domain_old.csproj", "{B4E0BEE3-1727-4D0D-AD9A-CCA8691654D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistance", "Persistance\Persistance.csproj", "{94E524C7-A702-4D1D-9F41-926C1D671F88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistance", "Persistance\Persistance.csproj", "{94E524C7-A702-4D1D-9F41-926C1D671F88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transport", "Transport\Transport.csproj", "{3555D613-9550-4977-A919-A12CB24919B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{7D48359A-0E71-49D1-8CA0-E101F360CD2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{695A414B-CD3D-419B-A67C-D50946EEA9DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{F5BA9653-54E0-4CE3-AC9F-130B0D7CD9F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{2D8BB806-55E5-4830-B274-DF7E0D4B0372}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{C14DD8E2-E788-4364-AA63-3AB4A3089E93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{94589194-0338-4F9F-BF73-240C6B8AB82E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationCore3GraphQL.Infra.CrossCutting.Bus", "WebApplicationCore3GraphQL.Infra.CrossCutting.Bus\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus.csproj", "{A1FD91A2-220C-41BB-A72B-EB7C7F041455}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationCore3GraphQL.Infra.CrossCutting.Identity", "WebApplicationCore3GraphQL.Infra.CrossCutting.Identity\WebApplicationCore3GraphQL.Infra.CrossCutting.Identity.csproj", "{DD91124B-29AB-4697-974B-6D6881F99D0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationCore3GraphQL.Infra.CrossCutting.IoC", "WebApplicationCore3GraphQL.Infra.CrossCutting.IoC\WebApplicationCore3GraphQL.Infra.CrossCutting.IoC.csproj", "{35F43847-A49C-4FE0-94CE-79BEB1D338EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +53,34 @@ Global
 		{94E524C7-A702-4D1D-9F41-926C1D671F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94E524C7-A702-4D1D-9F41-926C1D671F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94E524C7-A702-4D1D-9F41-926C1D671F88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3555D613-9550-4977-A919-A12CB24919B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3555D613-9550-4977-A919-A12CB24919B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3555D613-9550-4977-A919-A12CB24919B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3555D613-9550-4977-A919-A12CB24919B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1FD91A2-220C-41BB-A72B-EB7C7F041455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1FD91A2-220C-41BB-A72B-EB7C7F041455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1FD91A2-220C-41BB-A72B-EB7C7F041455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1FD91A2-220C-41BB-A72B-EB7C7F041455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD91124B-29AB-4697-974B-6D6881F99D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD91124B-29AB-4697-974B-6D6881F99D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD91124B-29AB-4697-974B-6D6881F99D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD91124B-29AB-4697-974B-6D6881F99D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35F43847-A49C-4FE0-94CE-79BEB1D338EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F43847-A49C-4FE0-94CE-79BEB1D338EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F43847-A49C-4FE0-94CE-79BEB1D338EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F43847-A49C-4FE0-94CE-79BEB1D338EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89109975-CDCD-4960-80ED-AA12C5D26E56} = {2D8BB806-55E5-4830-B274-DF7E0D4B0372}
+		{41824291-2A09-4827-B0C5-4AD258A11DCB} = {C14DD8E2-E788-4364-AA63-3AB4A3089E93}
+		{C14DD8E2-E788-4364-AA63-3AB4A3089E93} = {7D48359A-0E71-49D1-8CA0-E101F360CD2D}
+		{94589194-0338-4F9F-BF73-240C6B8AB82E} = {7D48359A-0E71-49D1-8CA0-E101F360CD2D}
+		{A1FD91A2-220C-41BB-A72B-EB7C7F041455} = {94589194-0338-4F9F-BF73-240C6B8AB82E}
+		{DD91124B-29AB-4697-974B-6D6881F99D0C} = {94589194-0338-4F9F-BF73-240C6B8AB82E}
+		{35F43847-A49C-4FE0-94CE-79BEB1D338EC} = {94589194-0338-4F9F-BF73-240C6B8AB82E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FAFB4846-2948-47E3-8A11-124341077BA9}

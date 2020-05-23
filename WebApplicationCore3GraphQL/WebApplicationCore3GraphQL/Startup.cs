@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Data.Context;
 using HotChocolate;
 using HotChocolate.AspNetCore;
@@ -14,6 +15,7 @@ using Microsoft.Extensions.Hosting;
 using Persistance.Repositories;
 using Persistance.Repositories.Interfaces;
 using WebApplicationCore3GraphQL.GraphQL.Queries;
+using WebApplicationCore3GraphQL.Persistance.DataLoaders;
 
 namespace WebApplicationCore3GraphQL
 {
@@ -24,6 +26,8 @@ namespace WebApplicationCore3GraphQL
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<SfeduMsSqlContext>();
+
+            services.AddAutoMapper(typeof(Startup));
 
             //// получаем строку подключения из файла конфигурации
             //string connection = Configuration.GetConnectionString("DefaultConnection");
@@ -45,6 +49,7 @@ namespace WebApplicationCore3GraphQL
             services.AddGraphQL(sp => SchemaBuilder.New()
             .AddServices(sp)
             .AddQueryType<QueryType>()
+            //.RegisterDataLoader<AcademyIncome1CBGUDataLoader>();
             .Create());
         }
 

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Data.Models
+namespace Transport
 {
-    class Academy1CBGU
+    public class Academy1CBGUDto
     {
         public int ID { get; set; }
         public string Name { get; set; }

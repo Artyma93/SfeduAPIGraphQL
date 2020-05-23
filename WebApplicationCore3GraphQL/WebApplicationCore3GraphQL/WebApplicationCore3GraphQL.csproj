@@ -5,6 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
     <PackageReference Include="HotChocolate" Version="10.4.3" />
     <PackageReference Include="HotChocolate.Abstractions" Version="10.4.3" />
     <PackageReference Include="HotChocolate.AspNetCore" Version="10.4.3" />
@@ -19,9 +21,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Data\Data.csproj" />
-    <ProjectReference Include="..\Domain\Domain.csproj" />
+    <ProjectReference Include="..\Data\WebApplicationCore3GraphQL.Infra.Data.csproj" />
+    <ProjectReference Include="..\Domain\Domain_old.csproj" />
     <ProjectReference Include="..\Persistance\Persistance.csproj" />
+    <ProjectReference Include="..\Transport\Transport.csproj" />
   </ItemGroup>
 
 </Project>

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Data.Models
+namespace Transport
 {
-    class AcademyIncome1CBGU
+    public class AcademyIncome1CBGUDto
     {
         public int ID { get; set; }
         public string AcademyСategory { get; set; } // "Академия" - категория в 1С БГУ

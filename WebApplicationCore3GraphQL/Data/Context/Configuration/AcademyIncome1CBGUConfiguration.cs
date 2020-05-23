@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Domain.Models;
+
+using WebApplicationCore3GraphQL.Infra.Data.Models;
 
 namespace Data.Context.Configuration
 {

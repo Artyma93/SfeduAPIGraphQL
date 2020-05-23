@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Domain.Models
+namespace Data.Models
 {
-    public class AcademyIncome1CBGU
+    public class AcademyIncome1CBGUDbo
     {
-        //public Guid ID { get; set; }
         public int ID { get; set; }
         public string AcademyСategory { get; set; } // "Академия" - категория в 1С БГУ
         public string KindOfActivityСategory { get; set; } // "Вид деятельности" - категория в 1С БГУ
