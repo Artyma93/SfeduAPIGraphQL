@@ -160,3 +160,9 @@ C:\Users\samtehnik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\W
 C:\Users\samtehnik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.ExpressionMapping.dll
 C:\Users\samtehnik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\samtehnik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\bin\Debug\netcoreapp3.1\Transport.dll
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.csprojAssemblyReference.cache
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.AssemblyInfoInputs.cache
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.AssemblyInfo.cs
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.dll
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.pdb

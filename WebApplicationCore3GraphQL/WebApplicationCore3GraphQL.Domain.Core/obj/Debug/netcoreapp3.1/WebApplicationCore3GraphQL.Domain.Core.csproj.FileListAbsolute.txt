@@ -1,0 +1,8 @@
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Domain.Core\bin\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Domain.Core.deps.json
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Domain.Core\bin\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Domain.Core.dll
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Domain.Core\bin\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Domain.Core.pdb
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Domain.Core\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Domain.Core.csprojAssemblyReference.cache
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Domain.Core\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Domain.Core.AssemblyInfoInputs.cache
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Domain.Core\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Domain.Core.AssemblyInfo.cs
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Domain.Core\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Domain.Core.dll
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Domain.Core\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Domain.Core.pdb

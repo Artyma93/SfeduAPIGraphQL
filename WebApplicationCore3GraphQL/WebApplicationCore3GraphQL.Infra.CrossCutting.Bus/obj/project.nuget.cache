@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "6lDoqgVW0JYi8P4roJVzL5k0xHfijS2m1xkEPT1YUviVN3EhFWCziwvUVXTQzDE5vMLl+JtcfozhCPpus7Y9KA==",
+  "dgSpecHash": "+fsw8U0sGGPvEkytqcjJnrOlhLbXYYCEnNxC6E51iIYEfdfeMILCEXnD2GnqRiItEt096ICEwAKQtLmewIEIOA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus\\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus\\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tarasik\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
+    "C:\\Users\\tarasik\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
+    "C:\\Users\\tarasik\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
   "logs": []
 }

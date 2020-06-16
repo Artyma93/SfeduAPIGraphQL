@@ -1,0 +1,11 @@
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus\bin\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus.deps.json
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus\bin\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus.dll
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus\bin\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus.pdb
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus\bin\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Domain.Core.dll
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus\bin\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Domain.Core.pdb
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus.csprojAssemblyReference.cache
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus.AssemblyInfoInputs.cache
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus.AssemblyInfo.cs
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus.csproj.CopyComplete
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus.dll
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus.pdb

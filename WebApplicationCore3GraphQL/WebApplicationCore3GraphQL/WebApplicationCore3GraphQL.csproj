@@ -21,10 +21,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Data\WebApplicationCore3GraphQL.Infra.Data.csproj" />
-    <ProjectReference Include="..\Domain\Domain_old.csproj" />
-    <ProjectReference Include="..\Persistance\Persistance.csproj" />
-    <ProjectReference Include="..\Transport\Transport.csproj" />
+    <ProjectReference Include="..\WebApplicationCore3GraphQL.Application\WebApplicationCore3GraphQL.Application.csproj" />
+    <ProjectReference Include="..\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus.csproj" />
+    <ProjectReference Include="..\WebApplicationCore3GraphQL.Infra.CrossCutting.Identity\WebApplicationCore3GraphQL.Infra.CrossCutting.Identity.csproj" />
+    <ProjectReference Include="..\WebApplicationCore3GraphQL.Infra.CrossCutting.IoC\WebApplicationCore3GraphQL.Infra.CrossCutting.IoC.csproj" />
   </ItemGroup>
 
 </Project>

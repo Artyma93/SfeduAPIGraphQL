@@ -1,0 +1,13 @@
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Domain\bin\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Domain.deps.json
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Domain\bin\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Domain.dll
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Domain\bin\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Domain.pdb
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Domain\bin\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Domain.Core.dll
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Domain\bin\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus.dll
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Domain\bin\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Domain.Core.pdb
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Domain\bin\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus.pdb
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Domain\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Domain.csprojAssemblyReference.cache
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Domain\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Domain.AssemblyInfoInputs.cache
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Domain\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Domain.AssemblyInfo.cs
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Domain\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Domain.csproj.CopyComplete
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Domain\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Domain.dll
+C:\Users\tarasik\Documents\GitHub\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL.Domain\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.Domain.pdb

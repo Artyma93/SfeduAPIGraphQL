@@ -4,4 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebApplicationCore3GraphQL.Domain.Core\WebApplicationCore3GraphQL.Domain.Core.csproj" />
+  </ItemGroup>
+
 </Project>

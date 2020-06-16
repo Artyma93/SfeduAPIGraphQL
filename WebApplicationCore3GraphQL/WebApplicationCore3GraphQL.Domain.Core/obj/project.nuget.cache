@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "uKDawjke6wv0Y91eoHF2gH9njLKe3cZlCGs5yRA7aQ20yRw6lrz0rcIJOYEHJeF9QtDCwZysv6TCSHt4MMGloA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Domain.Core\\WebApplicationCore3GraphQL.Domain.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tarasik\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
+    "C:\\Users\\tarasik\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
+    "C:\\Users\\tarasik\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

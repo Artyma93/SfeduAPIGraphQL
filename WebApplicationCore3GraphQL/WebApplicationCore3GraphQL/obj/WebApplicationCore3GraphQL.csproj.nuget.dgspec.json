@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.csproj": {}
+    "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\WebApplicationCore3GraphQL.Infra.Data.csproj": {
+    "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Application\\WebApplicationCore3GraphQL.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\WebApplicationCore3GraphQL.Infra.Data.csproj",
-        "projectName": "WebApplicationCore3GraphQL.Infra.Data",
-        "projectPath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\WebApplicationCore3GraphQL.Infra.Data.csproj",
-        "packagesPath": "C:\\Users\\samtehnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\obj\\",
+        "projectUniqueName": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Application\\WebApplicationCore3GraphQL.Application.csproj",
+        "projectName": "WebApplicationCore3GraphQL.Application",
+        "projectPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Application\\WebApplicationCore3GraphQL.Application.csproj",
+        "packagesPath": "C:\\Users\\tarasik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\samtehnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tarasik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,11 +32,461 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain_old.csproj": {
-                "projectPath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain_old.csproj"
+              "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Domain\\WebApplicationCore3GraphQL.Domain.csproj": {
+                "projectPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Domain\\WebApplicationCore3GraphQL.Domain.csproj"
               },
-              "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Transport\\Transport.csproj": {
-                "projectPath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Transport\\Transport.csproj"
+              "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.Data\\WebApplicationCore3GraphQL.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.Data\\WebApplicationCore3GraphQL.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.ComponentModel.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Domain.Core\\WebApplicationCore3GraphQL.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Domain.Core\\WebApplicationCore3GraphQL.Domain.Core.csproj",
+        "projectName": "WebApplicationCore3GraphQL.Domain.Core",
+        "projectPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Domain.Core\\WebApplicationCore3GraphQL.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\tarasik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tarasik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "System.ComponentModel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Domain\\WebApplicationCore3GraphQL.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Domain\\WebApplicationCore3GraphQL.Domain.csproj",
+        "projectName": "WebApplicationCore3GraphQL.Domain",
+        "projectPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Domain\\WebApplicationCore3GraphQL.Domain.csproj",
+        "packagesPath": "C:\\Users\\tarasik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tarasik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Domain.Core\\WebApplicationCore3GraphQL.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Domain.Core\\WebApplicationCore3GraphQL.Domain.Core.csproj"
+              },
+              "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus\\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus.csproj": {
+                "projectPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus\\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            },
+            "System.ComponentModel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Security.Claims": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus\\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus\\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus.csproj",
+        "projectName": "WebApplicationCore3GraphQL.Infra.CrossCutting.Bus",
+        "projectPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus\\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus.csproj",
+        "packagesPath": "C:\\Users\\tarasik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tarasik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Domain.Core\\WebApplicationCore3GraphQL.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Domain.Core\\WebApplicationCore3GraphQL.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.CrossCutting.Identity\\WebApplicationCore3GraphQL.Infra.CrossCutting.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.CrossCutting.Identity\\WebApplicationCore3GraphQL.Infra.CrossCutting.Identity.csproj",
+        "projectName": "WebApplicationCore3GraphQL.Infra.CrossCutting.Identity",
+        "projectPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.CrossCutting.Identity\\WebApplicationCore3GraphQL.Infra.CrossCutting.Identity.csproj",
+        "packagesPath": "C:\\Users\\tarasik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.CrossCutting.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tarasik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Domain\\WebApplicationCore3GraphQL.Domain.csproj": {
+                "projectPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Domain\\WebApplicationCore3GraphQL.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.CrossCutting.IoC\\WebApplicationCore3GraphQL.Infra.CrossCutting.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.CrossCutting.IoC\\WebApplicationCore3GraphQL.Infra.CrossCutting.IoC.csproj",
+        "projectName": "WebApplicationCore3GraphQL.Infra.CrossCutting.IoC",
+        "projectPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.CrossCutting.IoC\\WebApplicationCore3GraphQL.Infra.CrossCutting.IoC.csproj",
+        "packagesPath": "C:\\Users\\tarasik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.CrossCutting.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tarasik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Application\\WebApplicationCore3GraphQL.Application.csproj": {
+                "projectPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Application\\WebApplicationCore3GraphQL.Application.csproj"
+              },
+              "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Domain\\WebApplicationCore3GraphQL.Domain.csproj": {
+                "projectPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Domain\\WebApplicationCore3GraphQL.Domain.csproj"
+              },
+              "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.CrossCutting.Identity\\WebApplicationCore3GraphQL.Infra.CrossCutting.Identity.csproj": {
+                "projectPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.CrossCutting.Identity\\WebApplicationCore3GraphQL.Infra.CrossCutting.Identity.csproj"
+              },
+              "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.Data\\WebApplicationCore3GraphQL.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.Data\\WebApplicationCore3GraphQL.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.Data\\WebApplicationCore3GraphQL.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.Data\\WebApplicationCore3GraphQL.Infra.Data.csproj",
+        "projectName": "WebApplicationCore3GraphQL.Infra.Data",
+        "projectPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.Data\\WebApplicationCore3GraphQL.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\tarasik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tarasik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Domain\\WebApplicationCore3GraphQL.Domain.csproj": {
+                "projectPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Domain\\WebApplicationCore3GraphQL.Domain.csproj"
               }
             }
           }
@@ -64,157 +514,39 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[3.1.4, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[3.1.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[3.1.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain_old.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain_old.csproj",
-        "projectName": "Domain_old",
-        "projectPath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain_old.csproj",
-        "packagesPath": "C:\\Users\\samtehnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\samtehnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Persistance\\Persistance.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Persistance\\Persistance.csproj",
-        "projectName": "Persistance",
-        "projectPath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Persistance\\Persistance.csproj",
-        "packagesPath": "C:\\Users\\samtehnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Persistance\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\samtehnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\WebApplicationCore3GraphQL.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\WebApplicationCore3GraphQL.Infra.Data.csproj"
-              },
-              "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain_old.csproj": {
-                "projectPath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain_old.csproj"
-              },
-              "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Transport\\Transport.csproj": {
-                "projectPath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Transport\\Transport.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "dependencies": {
-            "GreenDonut": {
-              "target": "Package",
-              "version": "[10.4.3, )"
+              "version": "[3.1.4, )"
             },
-            "HotChocolate": {
+            "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[10.4.3, )"
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             }
           },
           "imports": [
@@ -232,82 +564,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Transport\\Transport.csproj": {
+    "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Transport\\Transport.csproj",
-        "projectName": "Transport",
-        "projectPath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Transport\\Transport.csproj",
-        "packagesPath": "C:\\Users\\samtehnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Transport\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\samtehnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.csproj",
+        "projectUniqueName": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.csproj",
         "projectName": "WebApplicationCore3GraphQL",
-        "projectPath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.csproj",
-        "packagesPath": "C:\\Users\\samtehnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL\\obj\\",
+        "projectPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.csproj",
+        "packagesPath": "C:\\Users\\tarasik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\samtehnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tarasik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -321,17 +596,17 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\WebApplicationCore3GraphQL.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\WebApplicationCore3GraphQL.Infra.Data.csproj"
+              "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Application\\WebApplicationCore3GraphQL.Application.csproj": {
+                "projectPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Application\\WebApplicationCore3GraphQL.Application.csproj"
               },
-              "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain_old.csproj": {
-                "projectPath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain_old.csproj"
+              "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus\\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus.csproj": {
+                "projectPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus\\WebApplicationCore3GraphQL.Infra.CrossCutting.Bus.csproj"
               },
-              "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Persistance\\Persistance.csproj": {
-                "projectPath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Persistance\\Persistance.csproj"
+              "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.CrossCutting.Identity\\WebApplicationCore3GraphQL.Infra.CrossCutting.Identity.csproj": {
+                "projectPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.CrossCutting.Identity\\WebApplicationCore3GraphQL.Infra.CrossCutting.Identity.csproj"
               },
-              "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Transport\\Transport.csproj": {
-                "projectPath": "C:\\Users\\samtehnik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Transport\\Transport.csproj"
+              "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.CrossCutting.IoC\\WebApplicationCore3GraphQL.Infra.CrossCutting.IoC.csproj": {
+                "projectPath": "C:\\Users\\tarasik\\Documents\\GitHub\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.Infra.CrossCutting.IoC\\WebApplicationCore3GraphQL.Infra.CrossCutting.IoC.csproj"
               }
             }
           }
@@ -416,7 +691,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

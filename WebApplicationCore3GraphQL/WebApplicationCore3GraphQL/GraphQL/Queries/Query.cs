@@ -1,10 +1,8 @@
-﻿using Domain.Models;
-using HotChocolate;
+﻿using HotChocolate;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Persistance.Repositories.Interfaces;
 using System.Threading;
 using WebApplicationCore3GraphQL.Persistance.DataLoaders;
 using GreenDonut;
