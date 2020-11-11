@@ -12,3 +12,17 @@ C:\Users\samtehnik\source\repos\WebApplicationCore3GraphQL\Persistance\obj\Debug
 C:\Users\samtehnik\source\repos\WebApplicationCore3GraphQL\Persistance\obj\Debug\netcoreapp3.1\Persistance.dll
 C:\Users\samtehnik\source\repos\WebApplicationCore3GraphQL\Persistance\obj\Debug\netcoreapp3.1\Persistance.pdb
 C:\Users\samtehnik\source\repos\WebApplicationCore3GraphQL\Persistance\obj\Debug\netcoreapp3.1\Persistance.csproj.CoreCompileInputs.cache
+D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\bin\Debug\netcoreapp3.1\Persistance.deps.json
+D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\bin\Debug\netcoreapp3.1\Persistance.dll
+D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\bin\Debug\netcoreapp3.1\Persistance.pdb
+D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\bin\Debug\netcoreapp3.1\Data.dll
+D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\bin\Debug\netcoreapp3.1\Data.pdb
+D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\obj\Debug\netcoreapp3.1\Persistance.csprojAssemblyReference.cache
+D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\obj\Debug\netcoreapp3.1\Persistance.AssemblyInfoInputs.cache
+D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\obj\Debug\netcoreapp3.1\Persistance.AssemblyInfo.cs
+D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\obj\Debug\netcoreapp3.1\Persistance.csproj.CoreCompileInputs.cache
+D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\obj\Debug\netcoreapp3.1\Persistance.csproj.CopyComplete
+D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\obj\Debug\netcoreapp3.1\Persistance.dll
+D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\obj\Debug\netcoreapp3.1\Persistance.pdb

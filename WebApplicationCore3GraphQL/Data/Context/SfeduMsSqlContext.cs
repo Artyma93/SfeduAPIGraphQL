@@ -18,7 +18,7 @@ namespace Data.Context
         public SfeduMsSqlContext CreateDbContext(string[] args)
         {
             var optionsBuilder = new DbContextOptionsBuilder<SfeduMsSqlContext>();
-            optionsBuilder.UseSqlServer(connectHome, opts => opts.CommandTimeout((int)TimeSpan.FromMinutes(10).TotalSeconds));
+            optionsBuilder.UseSqlServer(connectWork, opts => opts.CommandTimeout((int)TimeSpan.FromMinutes(10).TotalSeconds));
 
             return new SfeduMsSqlContext(optionsBuilder.Options);
         }
@@ -35,7 +35,7 @@ namespace Data.Context
         public virtual DbSet<AcademyIncome1CBGU> AcademyIncome1CBGUs { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(conectHome);
+            optionsBuilder.UseSqlServer(conectWork);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

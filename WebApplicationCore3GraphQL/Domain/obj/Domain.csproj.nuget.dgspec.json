@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\samtehnik\\source\\repos\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj": {}
+    "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\samtehnik\\source\\repos\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj": {
+    "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samtehnik\\source\\repos\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\samtehnik\\source\\repos\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\samtehnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samtehnik\\source\\repos\\WebApplicationCore3GraphQL\\Domain\\obj\\",
+        "projectPath": "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\aldyrev\\.nuget\\packages\\",
+        "outputPath": "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\samtehnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aldyrev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -52,12 +52,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

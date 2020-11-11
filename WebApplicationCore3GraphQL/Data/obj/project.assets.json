@@ -2131,12 +2131,11 @@
       ]
     },
     "System.Collections.Specialized/4.3.0": {
-      "sha512": "Epx8PoVZR0iuOnJJDzp7pWvdfMMOAvpUo95pC4ScH2mJuXkKA2Y4aR3cG9qt2klHgSons1WFh4kcGW7cSXvrxg==",
+      "sha512": "NoPBj0ykejqAWW4p4gGtrrL+3c84ZLSvGnHgq422ew1Rj4WKj1FA8/BCybqC111EtgcqUl6ZJNFYYS22HLgbjA==",
       "type": "package",
       "path": "system.collections.specialized/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4032,12 +4031,11 @@
       ]
     },
     "System.Runtime.Serialization.Primitives/4.3.0": {
-      "sha512": "Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
+      "sha512": "2Z5t70a2SwMsfQDp9KOclaZNyQhfIga2gppq9lIUDM1A4ohTshn4JqT7ir8bvIhXgorWKYDAr6rPzEbi/nTGKg==",
       "type": "package",
       "path": "system.runtime.serialization.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5013,25 +5011,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\samtehnik\\.nuget\\packages\\": {},
+    "C:\\Users\\aldyrev\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samtehnik\\source\\repos\\WebApplicationCore3GraphQL\\Data\\Data.csproj",
+      "projectUniqueName": "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\samtehnik\\source\\repos\\WebApplicationCore3GraphQL\\Data\\Data.csproj",
-      "packagesPath": "C:\\Users\\samtehnik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samtehnik\\source\\repos\\WebApplicationCore3GraphQL\\Data\\obj\\",
+      "projectPath": "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\Data.csproj",
+      "packagesPath": "C:\\Users\\aldyrev\\.nuget\\packages\\",
+      "outputPath": "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\samtehnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aldyrev\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -5045,8 +5043,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\samtehnik\\source\\repos\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\samtehnik\\source\\repos\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj"
+            "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj"
             }
           }
         }
@@ -5091,12 +5089,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

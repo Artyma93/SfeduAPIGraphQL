@@ -34,6 +34,8 @@ namespace WebApplicationCore3GraphQL
             services.AddTransient<IAcademy1CBGURepository, Academy1CBGURepository>();
             services.AddTransient<IAcademyIncome1CBGURepository, AcademyIncome1CBGURepository>();
 
+            services.AddCors();
+
             // v1
             //services.AddDataLoaderRegistry();
 
@@ -54,6 +56,13 @@ namespace WebApplicationCore3GraphQL
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseCors(c =>
+            {
+                c.AllowAnyHeader();
+                c.AllowAnyMethod();
+                c.AllowAnyOrigin();
+            });
 
             //app.UseGraphQL();
             app.UseGraphQL("/graphql");

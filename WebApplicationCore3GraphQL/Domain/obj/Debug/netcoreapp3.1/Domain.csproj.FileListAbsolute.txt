@@ -7,3 +7,12 @@ C:\Users\samtehnik\source\repos\WebApplicationCore3GraphQL\Domain\obj\Debug\netc
 C:\Users\samtehnik\source\repos\WebApplicationCore3GraphQL\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
 C:\Users\samtehnik\source\repos\WebApplicationCore3GraphQL\Domain\obj\Debug\netcoreapp3.1\Domain.dll
 C:\Users\samtehnik\source\repos\WebApplicationCore3GraphQL\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
