@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.csproj": {}
+    "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.csproj": {}
   },
   "projects": {
-    "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\Data.csproj": {
+    "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\Data.csproj",
+        "projectUniqueName": "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\aldyrev\\.nuget\\packages\\",
-        "outputPath": "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\obj\\",
+        "projectPath": "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\samtehnik\\.nuget\\packages\\",
+        "outputPath": "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\aldyrev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\samtehnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -31,9 +31,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj"
+              "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj"
               }
             }
           }
@@ -46,6 +47,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -78,36 +80,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj": {
+    "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\aldyrev\\.nuget\\packages\\",
-        "outputPath": "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\obj\\",
+        "projectPath": "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\samtehnik\\.nuget\\packages\\",
+        "outputPath": "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\aldyrev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\samtehnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -120,6 +116,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -131,6 +128,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -141,36 +139,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Persistance\\Persistance.csproj": {
+    "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Persistance\\Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Persistance\\Persistance.csproj",
+        "projectUniqueName": "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Persistance\\Persistance.csproj",
         "projectName": "Persistance",
-        "projectPath": "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Persistance\\Persistance.csproj",
-        "packagesPath": "C:\\Users\\aldyrev\\.nuget\\packages\\",
-        "outputPath": "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Persistance\\obj\\",
+        "projectPath": "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Persistance\\Persistance.csproj",
+        "packagesPath": "C:\\Users\\samtehnik\\.nuget\\packages\\",
+        "outputPath": "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\aldyrev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\samtehnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -183,12 +175,13 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\Data.csproj": {
-                "projectPath": "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\Data.csproj"
+              "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\Data.csproj": {
+                "projectPath": "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\Data.csproj"
               },
-              "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj"
+              "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj"
               }
             }
           }
@@ -201,6 +194,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "GreenDonut": {
               "target": "Package",
@@ -221,36 +215,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.csproj": {
+    "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.csproj",
+        "projectUniqueName": "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.csproj",
         "projectName": "WebApplicationCore3GraphQL",
-        "projectPath": "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.csproj",
-        "packagesPath": "C:\\Users\\aldyrev\\.nuget\\packages\\",
-        "outputPath": "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL\\obj\\",
+        "projectPath": "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL.csproj",
+        "packagesPath": "C:\\Users\\samtehnik\\.nuget\\packages\\",
+        "outputPath": "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\WebApplicationCore3GraphQL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\aldyrev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\samtehnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -263,15 +251,16 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\Data.csproj": {
-                "projectPath": "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\Data.csproj"
+              "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\Data.csproj": {
+                "projectPath": "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Data\\Data.csproj"
               },
-              "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj"
+              "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Domain\\Domain.csproj"
               },
-              "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Persistance\\Persistance.csproj": {
-                "projectPath": "D:\\Node\\aaa\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Persistance\\Persistance.csproj"
+              "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Persistance\\Persistance.csproj": {
+                "projectPath": "D:\\JS\\React\\SfeduAPIGraphQL\\WebApplicationCore3GraphQL\\Persistance\\Persistance.csproj"
               }
             }
           }
@@ -284,50 +273,51 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "HotChocolate": {
               "target": "Package",
-              "version": "[10.4.3, )"
-            },
-            "HotChocolate.Abstractions": {
-              "target": "Package",
-              "version": "[10.4.3, )"
+              "version": "[10.5.3, )"
             },
             "HotChocolate.AspNetCore": {
               "target": "Package",
-              "version": "[10.4.3, )"
+              "version": "[10.5.3, )"
             },
             "HotChocolate.AspNetCore.Playground": {
               "target": "Package",
-              "version": "[10.4.3, )"
-            },
-            "HotChocolate.AspNetCore.Subscriptions": {
-              "target": "Package",
-              "version": "[10.4.3, )"
+              "version": "[10.5.3, )"
             },
             "HotChocolate.Language": {
               "target": "Package",
-              "version": "[10.4.3, )"
+              "version": "[10.5.3, )"
             },
             "HotChocolate.Stitching": {
               "target": "Package",
-              "version": "[10.4.3, )"
+              "version": "[10.5.3, )"
             },
             "HotChocolate.Subscriptions": {
               "target": "Package",
-              "version": "[10.4.3, )"
+              "version": "[10.5.3, )"
             },
             "HotChocolate.Types.Filters": {
               "target": "Package",
-              "version": "[10.4.3, )"
+              "version": "[10.5.3, )"
             },
             "HotChocolate.Types.Selections": {
               "target": "Package",
-              "version": "[10.4.3, )"
+              "version": "[10.5.3, )"
             },
             "HotChocolate.Types.Sorting": {
               "target": "Package",
-              "version": "[10.4.3, )"
+              "version": "[10.5.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.Graph": {
+              "target": "Package",
+              "version": "[3.19.0, )"
             }
           },
           "imports": [
@@ -340,12 +330,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -354,7 +338,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

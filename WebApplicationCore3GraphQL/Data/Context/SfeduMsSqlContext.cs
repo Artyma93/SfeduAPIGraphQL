@@ -18,15 +18,15 @@ namespace Data.Context
         public SfeduMsSqlContext CreateDbContext(string[] args)
         {
             var optionsBuilder = new DbContextOptionsBuilder<SfeduMsSqlContext>();
-            optionsBuilder.UseSqlServer(connectWork, opts => opts.CommandTimeout((int)TimeSpan.FromMinutes(10).TotalSeconds));
+            optionsBuilder.UseSqlServer(connectHome, opts => opts.CommandTimeout((int)TimeSpan.FromMinutes(10).TotalSeconds));
 
             return new SfeduMsSqlContext(optionsBuilder.Options);
         }
     }
     public class SfeduMsSqlContext : DbContext
     {
-        string conectHome = @"Server=(localdb)\mssqllocaldb;AttachDbFileName=D:\SQL\sfedu\SFEDU.mdf;Database=SFEDU;Trusted_Connection=True";
-        string conectWork = @"Server=(localdb)\mssqllocaldb;AttachDbFileName=D:\Disk_E\1 DB\1 MS SQL\SFEDU\TestDB1.mdf;Database=TestDB1;Trusted_Connection=True";
+        string connectHome = @"Server=(localdb)\mssqllocaldb;AttachDbFileName=D:\SQL\sfedu\SFEDU.mdf;Database=SFEDU;Trusted_Connection=True";
+        string connectWork = @"Server=(localdb)\mssqllocaldb;AttachDbFileName=D:\Disk_E\1 DB\1 MS SQL\SFEDU\TestDB1.mdf;Database=TestDB1;Trusted_Connection=True";
 
         public SfeduMsSqlContext() { }
         public SfeduMsSqlContext(DbContextOptions options) : base(options) { }
@@ -35,7 +35,7 @@ namespace Data.Context
         public virtual DbSet<AcademyIncome1CBGU> AcademyIncome1CBGUs { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(conectWork);
+            optionsBuilder.UseSqlServer(connectHome);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

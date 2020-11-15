@@ -14,25 +14,50 @@ using Microsoft.Extensions.Hosting;
 using Persistance.Repositories;
 using Persistance.Repositories.Interfaces;
 using WebApplicationCore3GraphQL.GraphQL.Queries;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using WebApplicationCore3GraphQL.Utils;
+using Microsoft.Extensions.Configuration;
 
 namespace WebApplicationCore3GraphQL
 {
     public class Startup
     {
+
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
+
+        public IConfiguration Configuration { get; }
+
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<SfeduMsSqlContext>();
 
-            //// получаем строку подключения из файла конфигурации
+            //// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
             //string connection = Configuration.GetConnectionString("DefaultConnection");
-            //// добавляем контекст MobileContext в качестве сервиса в приложение
+            //// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ MobileContext пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
             //services.AddDbContext<SfeduMsSqlContext>(options =>
             //    options.UseSqlServer(connection));
 
             services.AddTransient<IAcademy1CBGURepository, Academy1CBGURepository>();
             services.AddTransient<IAcademyIncome1CBGURepository, AcademyIncome1CBGURepository>();
+
+            // The following lines code instruct the asp.net core middleware to use the data in the "groups" claim in the Authorize attribute
+            //services.Configure<JwtBearerOptions>(JwtBearerDefaults.AuthenticationScheme, options =>
+            //{
+            //    // The claim in the Jwt token where groups are available.
+            //    options.TokenValidationParameters.RoleClaimType = "groups";
+            //});
+
+            // Adding authorization policies that enforce authorization using Azure AD roles.
+            //services.AddAuthorization(options =>
+            //{
+            //    options.AddPolicy(AuthorizationPolicies.AssignmentToGroupAdminGroupRequired, policy => policy.RequireRole(Configuration["Groups:GroupAdmin"]));
+            //    options.AddPolicy(AuthorizationPolicies.AssignmentToGroupMemberGroupRequired, policy => policy.RequireRole(Configuration["Groups:GroupMember"]));
+            //});
 
             services.AddCors();
 
@@ -45,6 +70,7 @@ namespace WebApplicationCore3GraphQL
 
             services.AddGraphQL(sp => SchemaBuilder.New()
             .AddServices(sp)
+            .AddAuthorizeDirectiveType()
             .AddQueryType<QueryType>()
             .Create());
         }
@@ -63,7 +89,8 @@ namespace WebApplicationCore3GraphQL
                 c.AllowAnyMethod();
                 c.AllowAnyOrigin();
             });
-
+            //app.UseAuthentication();
+            //app.UseAuthorization();
             //app.UseGraphQL();
             app.UseGraphQL("/graphql");
             app.UsePlayground("/graphql", "/graphql/playground");
@@ -78,6 +105,7 @@ namespace WebApplicationCore3GraphQL
             //        await context.Response.WriteAsync("Hello World!!!");
             //    });
             //});
+
         }
     }
 

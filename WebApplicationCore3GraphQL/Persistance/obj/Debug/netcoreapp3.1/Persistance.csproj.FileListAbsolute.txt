@@ -26,3 +26,17 @@ D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\obj\Debug\net
 D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\obj\Debug\netcoreapp3.1\Persistance.csproj.CopyComplete
 D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\obj\Debug\netcoreapp3.1\Persistance.dll
 D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\obj\Debug\netcoreapp3.1\Persistance.pdb
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\bin\Debug\netcoreapp3.1\Persistance.deps.json
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\bin\Debug\netcoreapp3.1\Persistance.dll
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\bin\Debug\netcoreapp3.1\Persistance.pdb
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\bin\Debug\netcoreapp3.1\Data.dll
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\bin\Debug\netcoreapp3.1\Domain.dll
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\bin\Debug\netcoreapp3.1\Data.pdb
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\obj\Debug\netcoreapp3.1\Persistance.csprojAssemblyReference.cache
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\obj\Debug\netcoreapp3.1\Persistance.AssemblyInfoInputs.cache
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\obj\Debug\netcoreapp3.1\Persistance.AssemblyInfo.cs
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\obj\Debug\netcoreapp3.1\Persistance.csproj.CoreCompileInputs.cache
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\obj\Debug\netcoreapp3.1\Persistance.csproj.CopyComplete
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\obj\Debug\netcoreapp3.1\Persistance.dll
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Persistance\obj\Debug\netcoreapp3.1\Persistance.pdb

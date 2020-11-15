@@ -16,3 +16,12 @@ D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Domain\obj\Debug\netcorea
 D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
 D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Domain\obj\Debug\netcoreapp3.1\Domain.dll
 D:\Node\aaa\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
