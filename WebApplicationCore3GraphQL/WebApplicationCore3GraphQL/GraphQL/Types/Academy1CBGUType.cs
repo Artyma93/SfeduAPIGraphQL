@@ -14,8 +14,9 @@ namespace WebApplicationCore3GraphQL.GraphQL.Types
     {
         protected override void Configure(IObjectTypeDescriptor<Academy1CBGU> descriptor)
         {
+            // descriptor.Authorize();
             descriptor.Field(a => a.ID).Type<NonNullType<IdType>>();
-            descriptor.Field(a => a.Name).Type<StringType>().Authorize(new[] { "GroupAdmin", "GroupMember" }); ; 
+            descriptor.Field(a => a.Name).Type<StringType>().Authorize(); 
 
             //descriptor.Field(a => a.Name).Type<Academy1CBGU>().Resolver(ctx =>
             //{

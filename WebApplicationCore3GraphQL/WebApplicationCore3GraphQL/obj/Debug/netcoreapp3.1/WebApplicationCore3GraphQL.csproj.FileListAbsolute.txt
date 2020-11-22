@@ -244,3 +244,11 @@ D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQ
 D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.csproj.CoreCompileInputs.cache
 D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.MvcApplicationPartsAssemblyInfo.cache
 D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\obj\Debug\netcoreapp3.1\scopedcss\bundle\WebApplicationCore3GraphQL.styles.css
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\bin\Debug\netcoreapp3.1\Azure.Core.dll
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\bin\Debug\netcoreapp3.1\Azure.Identity.dll
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\bin\Debug\netcoreapp3.1\Azure.Security.KeyVault.Certificates.dll
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\bin\Debug\netcoreapp3.1\Azure.Security.KeyVault.Secrets.dll
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\bin\Debug\netcoreapp3.1\Microsoft.Identity.Web.dll
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\obj\Debug\netcoreapp3.1\WebApplicationCore3GraphQL.MvcApplicationPartsAssemblyInfo.cs
+D:\JS\React\SfeduAPIGraphQL\WebApplicationCore3GraphQL\WebApplicationCore3GraphQL\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.Extensions.Msal.dll
